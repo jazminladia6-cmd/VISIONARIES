@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURE LEADERS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Futuristic & Tech-Forward Google Fonts (Syne & Space Grotesk) -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <span class="badge-1a pulse-anim"></span>
+                <span class="brand-name">VISIONARIES</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section light-sunset-bg">
+        <div class="container text-center animate-fade-in">
+            <div class="hero-tag-container">
+                <span class="hero-tag float-anim">LIMITLESS POTENTIAL • PASSION DRIVEN</span>
+            </div>
+            <h1 class="hero-title gradient-text-light shimmer-text">IDEAS THAT INSPIRE</h1>
+            <p class="home-sub-light">We are passionate, forward-thinking IT students from the University of Eastern Pangasinan, building our path toward software innovation and digital excellence.</p>
+            <a href="#team" class="primary-btn sunset-btn pulse-btn">Explore Our Team &rarr;</a>
+        </div>
+    </section>
+
+    <section id="team" class="section-padding team-bg">
+        <div class="container">
+            <p class="small-tag">OUR DREAM TEAM</p>
+            <h2 class="section-title">Meet the Innovators</h2>
+
+            <div class="team-grid">
+                <div class="member-card float-anim fade-in-up">
+                    <div class="img-wrapper">
+                        <img src="happy.jpg" alt="CARPIO, HAPPY" class="member-img">
+                    </div>
+                    <h3>CARPIO, HAPPY</h3>
+                    <p class="role">PROGRAMMER</p>
+                    <button class="show-resume-btn" onclick="openProfile('happy-profile')">Show Resume &rarr;</button>
+                </div>
+
+                <div class="member-card float-anim float-delay-1 fade-in-up">
+                    <div class="img-wrapper">
+                        <img src="jazmin.jpg" alt="LADIA, JAZMIN" class="member-img">
+                    </div>
+                    <h3>LADIA, JAZMIN</h3>
+                    <p class="role">PROGRAMMER</p>
+                    <button class="show-resume-btn" onclick="openProfile('jazmin-profile')">Show Resume &rarr;</button>
+                </div>
+
+                <div class="member-card float-anim float-delay-2 fade-in-up">
+                    <div class="img-wrapper">
+                        <img src="sophia.jpg" alt="SALENGA, SOPHIA" class="member-img">
+                    </div>
+                    <h3>SALENGA, SOPHIA</h3>
+                    <p class="role">PROGRAMMER</p>
+                    <button class="show-resume-btn" onclick="openProfile('sophia-profile')">Show Resume &rarr;</button>
+                </div>
+
+                <div class="member-card float-anim float-delay-3 fade-in-up">
+                    <div class="img-wrapper">
+                        <img src="carla.jpg" alt="TERCENO, CARLA" class="member-img">
+                    </div>
+                    <h3>TERCENO, CARLA</h3>
+                    <p class="role">PROGRAMMER</p>
+                    <button class="show-resume-btn" onclick="openProfile('carla-profile')">Show Resume &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding projects-bg">
+        <div class="container">
+            <p class="small-tag">OUR WORK</p>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A showcase of the creative and collaborative software projects we have built</p>
+
+            <div class="projects-grid">
+                <div class="project-card animated-card">
+                    <div class="project-box-img">Portfolio Hub v1</div>
+                    <div class="project-content">
+                        <span class="proj-tag">HTML / CSS</span>
+                        <h3>Unified Member Portal</h3>
+                        <p>A multi-functional portfolio portal linking individual member records and summaries</p>
+                    </div>
+                </div>
+                <div class="project-card animated-card">
+                    <div class="project-box-img">Interactive Portfolios</div>
+                    <div class="project-content">
+                        <span class="proj-tag">HTML / CSS / JS</span>
+                        <h3>Individual Resume Views</h3>
+                        <p>Dynamic overlay portfolio presentations featuring customized unique color themes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding about-bg">
+        <div class="container">
+            <p class="small-tag">WHO WE ARE</p>
+            <h2 class="section-title">About Our Team</h2>
+            <p class="section-subtitle">Our shared philosophy, workflow, and core objectives</p>
+
+            <div class="about-grid">
+                <div class="about-text animated-card">
+                    <p>We are a dedicated collective of determined first-year IT students at the University of Eastern Pangasinan. Bound by our enthusiasm for technology, we collaborate to build clean code and functional applications.</p>
+                    <p>We embrace practical learning by designing real web layouts, debugging together, and sharpening our analytical problem-solving skills every single day.</p>
+                    <p>Our ultimate goal is to evolve into competent, forward-thinking IT professionals ready to build software that creates real impact.</p>
+                </div>
+                <div class="about-boxes">
+                    <div class="mini-info-box animated-card">
+                        <h4>⚡ Team Synergy</h4>
+                        <p>We collaborate closely, conduct peer code reviews, and build robust solutions together.</p>
+                    </div>
+                    <div class="mini-info-box animated-card">
+                        <h4>🚀 Adaptability</h4>
+                        <p>We view every coding hurdle as an opportunity to master new technologies.</p>
+                    </div>
+                    <div class="mini-info-box animated-card">
+                        <h4>🎯 Innovation</h4>
+                        <p>We strive to implement unique UI concepts and practical problem-solving logic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding contact-bg">
+        <div class="container">
+            <p class="small-tag">GET IN TOUCH</p>
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Have questions or want to collaborate with our team? Send us a message.</p>
+
+            <div class="contact-grid">
+                <div class="contact-details animated-card">
+                    <div class="c-item">
+                        <strong>Team Email</strong>
+                        <p>innovators.tech@email.com</p>
+                    </div>
+                    <div class="c-item">
+                        <strong>Institution</strong>
+                        <p>University of Eastern Pangasinan • Future IT Professionals</p>
+                    </div>
+                </div>
+                <div class="contact-form animated-card">
+                    <form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="send-btn pulse-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Overlays with Smooth Animations -->
+    <div id="happy-profile" class="profile-overlay theme-happy">
+        <div class="container-profile modal-pop-in">
+            <button class="back-link" onclick="closeProfile('happy-profile')">&larr; Back to Home</button>
+            <div class="profile-hero-center">
+                <img src="happy.jpg" alt="CARPIO, HAPPY" class="large-avatar profile-avatar-anim">
+                <h2>CARPIO, HAPPY</h2>
+                <p class="profile-role">PROGRAMMER</p>
+                <p class="profile-loc">📍 Damortis, La Union </p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CAREER OBJECTIVE</h3>
+                <p>I am a hardworking IT student who knows the basics of HTML, CSS, and web development. I want to use my skills to build useful apps, work with other developers, and grow my career as a software engineer.</p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>SKILLS</h3>
+                <ul class="functional-skills-list">
+                    <li><strong>Communication Skills</strong></li>
+                    <li><strong>Teamwork</strong></li>
+                    <li><strong>Basic Computer Skills</strong></li>
+                    <li><strong>Problem Solving</strong></li>
+                    <li><strong>Time Management</strong></li>
+                    <li><strong>Adaptability</strong></li>
+                </ul>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>EDUCATION</h3>
+                <div class="edu-box">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p class="edu-sub">Aspiring Developer — University of Eastern Pangasinan (Current Student)</p>
+                </div>
+                <div class="edu-box" style="margin-top: 1rem;">
+                    <h4>Senior High School (HUMSS Strand)</h4>
+                    <p class="edu-sub">Damortis National High School • With Honor (Grade 11 - 2024 & Grade 12 - 2025)</p>
+                </div>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CONTACT INFORMATION</h3>
+                <p><strong>Phone:</strong> 09566982467</p>
+                <p><strong>Email:</strong> carpiohappy@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="jazmin-profile" class="profile-overlay theme-jazmin">
+        <div class="container-profile modal-pop-in">
+            <button class="back-link" onclick="closeProfile('jazmin-profile')">&larr; Back to Home</button>
+            <div class="profile-hero-center">
+                <img src="jazmin.jpg" alt="LADIA, JAZMIN" class="large-avatar profile-avatar-anim">
+                <h2>LADIA, JAZMIN</h2>
+                <p class="profile-role">PROGRAMMER</p>
+                <p class="profile-loc">📍 San Nicolas, Pangasinan </p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CAREER OBJECTIVE</h3>
+                <p>A motivated IT freshman ready to dive deep into programming and modern web design. Driven to build smooth, simple tech solutions that make a real difference for everyday users.</p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>SKILLS</h3>
+                <ul class="functional-skills-list">
+                    <li><strong>Teamwork and Good Listener</strong></li>
+                    <li><strong>Problem Solving & Logic</strong></li>
+                    <li><strong>Documentation & Research</strong></li>
+                    <li><strong>Time Management</strong></li>
+                    <li><strong>Willingness to Learn</strong></li>
+                    <li><strong>Organization Skills</strong></li>
+                </ul>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>EDUCATION</h3>
+                <div class="edu-box">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p class="edu-sub">Aspiring Developer — University of Eastern Pangasinan (Current Student)</p>
+                </div>
+                <div class="edu-box" style="margin-top: 1rem;">
+                    <h4>Senior High School</h4>
+                    <p class="edu-sub">Tayug National High School (Batch 2025-2026)</p>
+                </div>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CONTACT INFORMATION</h3>
+                <p><strong>Phone:</strong> 09923266847</p>
+                <p><strong>Email:</strong> jazminladia6@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="sophia-profile" class="profile-overlay theme-sophia">
+        <div class="container-profile modal-pop-in">
+            <button class="back-link" onclick="closeProfile('sophia-profile')">&larr; Back to Home</button>
+            <div class="profile-hero-center">
+                <img src="sophia.jpg" alt="SALENGA, SOPHIA" class="large-avatar profile-avatar-anim">
+                <h2>SALENGA, SOPHIA</h2>
+                <p class="profile-role">PROGRAMMER</p>
+                <p class="profile-loc">📍 Sison, Pangasinan </p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CAREER OBJECTIVE</h3>
+                <p>A motivated Information Technology student passionate about software systems, coding logic, and creative design. Eager to continuously expand technical expertise and build impactful software solutions.</p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>SKILLS</h3>
+                <ul class="functional-skills-list">
+                    <li><strong>Basic Computer Literacy</strong></li>
+                    <li><strong>Problem Solving</strong></li>
+                    <li><strong>HTML and CSS Fundamentals</strong></li>
+                    <li><strong>Time Management</strong></li>
+                    <li><strong>Teamwork and Collaboration</strong></li>
+                    <li><strong>Communication and Interpersonal Skills</strong></li>
+                </ul>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>EDUCATION</h3>
+                <div class="edu-box">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p class="edu-sub">Aspiring Developer — University of Eastern Pangasinan (Current Student)</p>
+                </div>
+                <div class="edu-box" style="margin-top: 1rem;">
+                    <h4>Senior High School</h4>
+                    <p class="edu-sub">Sison Central Integrated School (Batch 2025-2026)</p>
+                </div>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CONTACT INFORMATION</h3>
+                <p><strong>Phone:</strong> 09508243647</p>
+                <p><strong>Email:</strong> phiamiguel11@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="carla-profile" class="profile-overlay theme-carla">
+        <div class="container-profile modal-pop-in">
+            <button class="back-link" onclick="closeProfile('carla-profile')">&larr; Back to Home</button>
+            <div class="profile-hero-center">
+                <img src="carla.jpg" alt="TERCENO, CARLA" class="large-avatar profile-avatar-anim">
+                <h2>TERCENO, CARLA</h2>
+                <p class="profile-role">PROGRAMMER</p>
+                <p class="profile-loc">📍 Pozorrubio, Pangasinan </p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CAREER OBJECTIVE</h3>
+                <p>A passionate IT student driven by curiosity and a love for coding. Focused on honing my problem-solving skills, building smart web applications, and constantly leveling up to become the best developer I can be.</p>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>FUNCTIONAL SKILLS</h3>
+                <ul class="functional-skills-list">
+                    <li><strong>Open Minded</strong></li>
+                    <li><strong>Collaboration</strong></li>
+                    <li><strong>Active Listening</strong></li>
+                    <li><strong>Organization Skills</strong></li>
+                    <li><strong>Problem Solving & Logic</strong></li>
+                    <li><strong>Documentation & Research</strong></li>
+                </ul>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>EDUCATION</h3>
+                <div class="edu-box">
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p class="edu-sub">Aspiring Developer — University of Eastern Pangasinan (Current Student)</p>
+                </div>
+                <div class="edu-box" style="margin-top: 1rem;">
+                    <h4>Senior High School</h4>
+                    <p class="edu-sub">Nama National High School (Batch 2025-2026)</p>
+                </div>
+            </div>
+            <div class="resume-section animated-card resume-item-stagger">
+                <h3>CONTACT INFORMATION</h3>
+                <p><strong>Phone:</strong> 09283749633</p>
+                <p><strong>Email:</strong> carlamikhaelaterceno@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Team Excellence • Future Innovators. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function openProfile(id) {
+            const overlay = document.getElementById(id);
+            overlay.style.display = "block";
+            document.body.style.overflow = "hidden";
+        }
+        function closeProfile(id) {
+            const overlay = document.getElementById(id);
+            overlay.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+    </script>
+</body>
+</html>
+fonts.googleapis.com
